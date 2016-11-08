@@ -1,0 +1,24 @@
+{
+    "name": "rafsalvioni/zeus-barcode-renderer-gd",
+    "description": "Provides a renderer to draw barcodes as images using GD extension",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "barcode", "zeus", "renderer", "gd", "png", "image"
+    ],
+    "homepage": "https://github.com/rafsalvioni/zeus-barcode-renderer-gd",
+    "autoload": {
+        "psr-4": {
+            "Zeus\\Barcode\\Renderer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZeusTest\\Barcode\\Renderer\\": "test/"
+        }
+    },
+    "require": {
+        "php": ">=5.5 <6",
+        "rafsalvioni/zeus-barcode-core": "1.*",
+        "ext-gd": "*"
+    }
+}
