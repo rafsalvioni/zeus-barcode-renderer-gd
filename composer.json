@@ -3,7 +3,7 @@
     "description": "Provides a renderer to draw barcodes as images using GD extension",
     "license": "BSD-3-Clause",
     "keywords": [
-        "barcode", "zeus", "renderer", "gd", "png", "image"
+        "barcode", "zeus", "renderer", "gd", "png", "image", "jpg", "jpeg", "gif"
     ],
     "homepage": "https://github.com/rafsalvioni/zeus-barcode-renderer-gd",
     "autoload": {
@@ -18,7 +18,7 @@
     },
     "require": {
         "php": ">=5.5 <6",
-        "rafsalvioni/zeus-barcode-core": "1.*",
+        "rafsalvioni/zeus-barcode": "1.1.*",
         "ext-gd": "*"
     }
 }
