@@ -7,7 +7,7 @@ namespace ZeusTest\Barcode\Renderer;
  *
  * @author Rafael M. Salvioni
  */
-class GdRendererTest extends \PHPUnit_Framework_TestCase
+class GdRendererTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test
